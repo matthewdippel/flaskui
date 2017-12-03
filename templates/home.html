@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+        <head><title>Cool homepage</title>
+</head>
+<body>
+        <h1> Query app </h1><br>
+        <form action="/" method="post">
+                Query: <input type="text" name="query" value="{{ query }}"><br>
+        </form>
+        {{ output | safe}}
+</body>
+
+</html>
+
